@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = 'vinicius.matheus252@gmail.com'
 
   spec.summary       = 'Provide an interface to access the Linear API'
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-linear_api"
+  spec.homepage      = "https://github.com/Vnicius/fastlane-plugin-linear_api"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
