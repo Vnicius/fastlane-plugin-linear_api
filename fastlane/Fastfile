@@ -1,0 +1,12 @@
+lane :test do
+  result = linear_api(
+    api_key: "YOUR_PERSONAL_API_KEY", 
+    query: "{
+      teams {
+        nodes {
+          id
+          name
+        }
+      }
+    }")
+end
